@@ -1,0 +1,56 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+#name {
+  color: pink;
+  font-size: 40px;
+  margin: 50px;
+}
+
+.more-info {
+    color: #D3DFE6;
+    margin-left: 50px;
+    display: flex;
+    border: solid white;
+    width:100px;
+    justify-content: center;
+  }
+  
+.small-info {
+  color: #f66e9c;
+  margin-left: 50px;
+}
+
+a {
+  color: #f22b6f;
+}
+
+body {
+    background-image: url("flipped.jpeg");
+    background-color: #cccccc;
+    background-size: cover;
+   }
+
+
+.hov:hover{
+  color: pink;
+  font-size: 30px;
+}
+
+.grid-container {
+  margin: 50px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
